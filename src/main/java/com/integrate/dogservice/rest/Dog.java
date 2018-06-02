@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Dog {
 
     private long id;
-    private short legs;
+    private int legs;
     private String name;
     private int age;
 
@@ -13,7 +13,7 @@ public class Dog {
         return id;
     }
 
-    public short getLegs() {
+    public int getLegs() {
         return legs;
     }
 
@@ -25,7 +25,7 @@ public class Dog {
         return age;
     }
 
-    public Dog(long id, short legs, String name, int age) {
+    public Dog(long id, int legs, String name, int age) {
         this.id = id;
         this.legs = legs;
         this.name = name;
